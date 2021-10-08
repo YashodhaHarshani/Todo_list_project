@@ -1,0 +1,48 @@
+.container{
+  position: relative;
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: white;
+  top:190px; 
+  align-self: center;
+  padding: 50px;
+
+  
+}
+
+.error_message{
+    color: red;
+    font-size: 12px;
+  }
+
+
+
+input[type=password], input[type=text]{
+  
+   width: 100%;
+    padding: 12px 20px;
+    margin:  0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    background-color: #f2f2f2;
+    align-content: center;
+
+}
+
+button[type=submit]{
+font-family: "Roboto", sans-serif;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+   
+}
+
